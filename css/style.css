@@ -1,0 +1,63 @@
+#quoteBox{
+  margin-right:25%;
+  margin-left:25%;
+  margin-top:10%;
+  margin-bottom:10%;
+  background-color:white;
+  font-size:30px;
+  font-weight:bold;
+  padding:20px;
+  border:5px solid white;
+}
+.jumbotron{
+  back-ground:white;
+  text-align:center;
+  color:white;
+  background-color:white;
+}
+.container-fluid{
+  background-color:black;
+  font-family:Georgia;
+
+}
+#quoteBox{
+ background-color:black;
+  color:white;
+  padding:50px;
+}
+#quoteAuthor{
+  margin-bottom:20px;
+  float:right;
+}
+#tweet{
+  margin-right:10px;
+  float:left;
+  margin-bottom:20px;
+  margin-top:-40px;
+  background-color:black;
+
+}
+#newQuote{
+  float:right;
+  color:white;
+  margin-bottom:20px;
+  margin-top:-40px;
+}
+@media screen and (max-width:950px){
+  #quoteBox{
+    margin:10%;
+    
+  }
+}
+@media screen and (max-width:660px){
+  #quoteBox{
+    margin:0px;
+   }
+  #newQuote{
+    width:100%;
+  }
+  #tweet{
+    display:flex;
+    flex-wrap:wrap;
+  }
+}
